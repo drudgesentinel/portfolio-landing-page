@@ -9,3 +9,11 @@ body {
 .section-header{
   text-align: center;
 }
+
+.image {
+  max-width: 75px;
+}
+
+.image-wrapper {
+  text-align: center;
+}
