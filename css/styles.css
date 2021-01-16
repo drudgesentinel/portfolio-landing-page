@@ -3,11 +3,13 @@ body {
 }
 
 .intro-header{
+  padding: 5% 0 0 0;
   text-align:center;
 }
 
 .section-header{
   text-align: center;
+  padding:2% 0 2% 0;
 }
 
 .image {
