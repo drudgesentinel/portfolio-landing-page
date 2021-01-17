@@ -19,3 +19,8 @@ body {
 .image-wrapper {
   text-align: center;
 }
+
+.pfp {
+  max-width: 50%;
+  border-radius: 2em;
+}
