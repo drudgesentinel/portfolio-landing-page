@@ -1,33 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <title>Sean's Portfolio Page</title>
 </head>
+
 <body>
   <div class="container">
     <h2 class="intro-header">Hello! I'm Sean, and this is my code portfolio page.
-    <a href="https://github.com/drudgesentinel">
-      <img src="img/gh.png" class="github-icon" alt="Back to GitHub">
-    </a>
-  </h2>
+      <a href="https://github.com/drudgesentinel">
+        <img src="img/gh.png" class="github-icon" alt="Back to GitHub"> </a>
+      </h2>
     <div class="row">
       <div class="col-lg-6">
-        <div class="image-wrapper"><img src="img/me.jpg" class="pfp"/></div>
+        <div class="image-wrapper"><img src="img/me.jpg" class="pfp" /></div>
       </div>
       <div class="col-lg-6">
         <p>
-          I've worked in tech for almost a decade in various capacities, from working IT management for small businesses to working in Microsoft/AWS data centers to AWS Cloud support engineering.
-          I <span class="red">love</span> to participate in charity work, and have volunteered with CheckOrphan, Arise Impact, and Image Impact International as a Server Engineer, Web Developer, and Project Manager respectively.
+          I've worked in tech for almost a decade in various capacities, from working IT management for small
+          businesses to working in Microsoft/AWS data centers to AWS Cloud support engineering.
+          I <span class="red">love</span> to participate in charity work, and have volunteered with CheckOrphan, Arise
+          Impact, and Image Impact International as a Server Engineer, Web Developer, and Project Manager
+          respectively.
           You can see more details of my work history/technical certifications on my LinkedIn <a href="https://www.linkedin.com/in/seanmeininger/">here</a>.
         </p>
         <p>
-          I've long been interested/dabbled in writing code, and enjoy the opportunity to interact with other people in this pandemic and the accountability
+          I've long been interested/dabbled in writing code, and enjoy the opportunity to interact with other people
+          in this pandemic and the accountability
           that a formal class setting provides me.
         </p>
         <p>
@@ -48,41 +53,49 @@
       </div>
     </div>
     <h4 class="section-header">These are my favorite of my code projects:</h4>
-  <div class="row">
-    <div class="col-lg-4">
-      <div class="image-wrapper">
-        <img class="image" src="img/ruby-icon.jpg">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="image-wrapper">
+          <img class="image" src="img/ruby-icon.jpg">
+        </div>
+        <p>
+          <h4><strong>Stickerizer</strong></h4>
+          <a href="https://github.com/drudgesentinel/stickerizer">Stickerizer</a> allows you to create Telegram
+          messenger compatible stickers from a folder of image files. I did this as a Ruby rewrite of a <a href="https://github.com/drudgesentinel/telegram_stickerizer">bash script</a> I wrote some time ago,
+            though ironically the rewrite is both less lightweight and slower(but the code is of higher quality).
+        </p>
       </div>
-      <p>
-        <h4><strong>Stickerizer</strong></h4>
-        <a href="https://github.com/drudgesentinel/stickerizer">Stickerizer</a> allows you to create Telegram messenger compatible stickers from a folder of image files. I did this as a Ruby rewrite of a <a href="https://github.com/drudgesentinel/telegram_stickerizer">bash script</a> I wrote some time ago, though ironically the rewrite is both less lightweight and slower(but the code is of higher quality).
-      </p>
+      <div class="col-lg-4">
+        <div class="image-wrapper">
+          <img class="image" src="img/js-icon.png">
+        </div>
+        <p>
+          <h4><strong>Emulated Terminal Emulator</strong></h4>
+          A few years ago, I made a resume in the style of my Linux terminal emulator <a
+          href="https://codepen.io/SeanSaibot/pen/JrVXRa">here</a>, and while not <em>all</em> of the features still
+          work, it's still a good demo, and allowed me some hands on practice with:
+        </p>
+        <ol>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ol>
+      </div>
+      <div class="col-lg-4">
+        <div class="image-wrapper">
+          <img class="image" src="img/css-icon.png">
+        </div>
+        <p>
+          <h4><strong>Vernacular</strong>: Openbox3 Theme</h4>
+          I have written and modified existing themes for the old school Openbox window manager. The GTK (Gnome
+          Toolkit)
+          often used in Linux desktops uses CSS heavily. My theme is based on an old ArchLabs Linux theme, and is
+          called
+          <a href="https://github.com/drudgesentinel/vernacular">vernacular</a>.
+        </p>
+      </div>
     </div>
-    <div class="col-lg-4">
-      <div class="image-wrapper">
-        <img class="image" src="img/js-icon.png">
-      </div>
-      <p>
-        <h4><strong>Emulated Terminal Emulator</strong></h4>
-        A few years ago, I made a resume in the style of my Linux terminal emulator <a href="https://codepen.io/SeanSaibot/pen/JrVXRa">here</a>, and while not <em>all</em> of the features still work, it's still a good demo, and allowed me some hands on practice with:
-      </p>
-      <ol>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-      </ol>
-  </div>
-    <div class="col-lg-4">
-      <div class="image-wrapper">
-        <img class="image" src="img/css-icon.png">
-      </div>
-      <p>
-        <h4><strong>Vernacular</strong>: Openbox3 Theme</h4>
-        I have written and modified existing themes for the old school Openbox window manager. The GTK (Gnome Toolkit) often used in Linux desktops uses CSS heavily. My theme is based on an old ArchLabs Linux theme, and is called <a href="https://github.com/drudgesentinel/vernacular">vernacular</a>.
-      </p>
-    </div>
-  </div>
-  </div>
   </div>
 </body>
+
 </html>
